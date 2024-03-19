@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/chamada.css">
+    <link rel="stylesheet" href="css/destaques.css">
+    <link rel="stylesheet" href="css/diferenciais.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/planos.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/institucional.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="cabecalho container">
+        <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="cabecalho__logo">
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__link"><a href="#">Sobre</a></li>
+                <li class="cabecalho__link"><a href="#">Planos</a></li>
+                <li class="cabecalho__link"><a href="#">Blog</a></li>
+                <li class="cabecalho__link"><a href="#">Destaques</a></li>
+                <li class="cabecalho__link"><a href="#">Institucional</a></li>
+                <li class="cabecalho__link"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="chamada container">
+            <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
+            <p class="chamada__texto">Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e
+                médias empresas.</p>
+            <a class="chamada__botao botao" href="#">Conheça os planos</a>
+        </section>
+        <section class="destaques container">
+            <h2 class="destaques__titulo">Destaques</h2>
+            <a href="#">
+                <figure class="destaques__painel">
+                    <img class="destaques__painel-imagem" src="img/comecando-criar-logotipo.png"
+                        alt="Painel do post sobre criação de logotipo">
+                    <figcaption class="destaques__painel-texto">Conheça as primeiras etapas para a criação de um
+                        logotipo</figcaption>
+                </figure>
+                <figure class="destaques__painel">
+                    <img class="destaques__painel-imagem" src="img/dicas-fotografia.png"
+                        alt="Painel do post sobre fotografia com celular">
+                    <figcaption class="destaques__painel-texto">Veja dicas de como fotografar usando seu celular
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#" class="destaques__botao botao">Receber destaques por email</a>
+        </section>
+        <section class="diferenciais container">
+            <ul class="diferenciais__lista ">
+                <li class="diferenciais__item diferenciais__item--tempo">
+                    <h2 class="item__titulo">Tempo</h2>
+                    <p class="item__texto">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente
+                        aos prazos.</p>
+                </li>
+                <li class="diferenciais__item diferenciais__item--foco">
+                    <h2 class="item__titulo">Foco</h2>
+                    <p class="item__texto">Focamos no empreendimento! Oferecemos serviços de qualidade com preços
+                        acessíveis.</p>
+                </li>
+                <li class="diferenciais__item diferenciais__item--especialistas">
+                    <h2 class="item__titulo">Especialistas</h2>
+                    <p class="item__texto">Equipe experiente e especializada! Testamos todos os produtos antes do
+                        lançamento.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="sobre container">
+            <div class="sobre__conteudo">
+                <h2 class="sobre__titulo">Sobre</h2>
+                <p class="sobre__texto">Criamos aplicativos personalizados para <strong
+                        class="sobre__texto--destaque">todas as pessoas</strong>!</p>
+                <p class="sobre__texto">
+                    A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você assina
+                    nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por
+                    nossa conta.
+                </p>
+                <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
+                    Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.
+                </p>
+                <ul class="sobre__plataformas">
+                    <li><img src="img/android.png" alt="Ícone do Android"></li>
+                    <li><img src="img/blackberry.png" alt="Ícone da Blackberry"></li>
+                    <li><img src="img/apple.png" alt="Ícone da Apple"></li>
+                    <li><img src="img/windowsphone.png" alt="Ícone da Microsoft"></li>
+                </ul>
+                <p class="sobre__texto">Desenvolvemos aplicativos para todas as plataformas</p>
+            </div>
+            <img src="img/sobre-apeperia.png" alt="Sobre a Apeperia" class="sobre__imagem">
+        </section>
+        <section class="planos container">
+            <h2 class="planos__titulo">Planos</h2>
+            <ul class="planos__cartoes">
+                <li class="cartao cartao--start">
+                    <h3 class="cartao__titulo">Miguel</h3>
+                    <article class="cartao__conteudo">
+                        <p class="cartao__preco nascimento"><em>11/12/2007</em></p>
+                        <p class="cartao__texto">Preguiçoso</p>
+                        <p class="cartao__texto">Quieto</p>
+                        <p class="cartao__texto">Lerdo</p>
+                        <a href="plano.html" class="cartao__botao cartao__botao--start botao">Assinar Plano</a>
+                    </article>
+                </li>
+                <li class="cartao cartao--ultra">
+                    <h3 class="cartao__titulo">Ultra</h3>
+                    <article class="cartao__conteudo">
+                        <p class="cartao__preco"><em>R$ 1500</em></p>
+                        <p class="cartao__texto">20 manutenções mensais</p>
+                        <p class="cartao__texto">App Seo</p>
+                        <p class="cartao__texto">4 sistemas operacionais</p>
+                        <p class="cartao__texto">24h de atendimento</p>
+                        <a href="plano.html" class="cartao__botao cartao__botao--start botao">Assinar Plano</a>
+                    </article>
+                </li>
+                <li class="cartao cartao--mega">
+                    <h3 class="cartao__titulo">Mega</h3>
+                    <article class="cartao__conteudo">
+                        <p class="cartao__preco"><em>R$ 1000</em></p>
+                        <p class="cartao__texto">10 manutenções mensais</p>
+                        <p class="cartao__texto">App Seo</p>
+                        <p class="cartao__texto">2 sistemas operacionais</p>
+                        <a href="plano.html" class="cartao__botao cartao__botao--start botao">Assinar Plano</a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <section class="contato container">
+            <h2 class="contato__titulo">Contato</h2>
+            <p>Entre em contato com a gente</p>
+            <a href="contato.html" class="contato__botao ">Entre em contato</a>
+        </section>
+        <div id="formulario" class="formulario">
+            <div class="formulario_conteudo">
+                <form class="formulario__contato" id="formulario__contato">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required>
+                    <label for="dataNascimento">Data de nascimento:</label>
+                    <input type="date" id="dataNasc" required>
+                    <label for="email" id="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="rg" id="rg">RG:</label>
+                    <input type="text" name="rg" id="rg" required>
+                    <label for="opcao">Área de atuação:</label>
+                    <select name="opcao" id="opcao">
+                        <option value="outro">Outra Área</option>
+                        <option value="exatas">Exatas</option>
+                        <option value="humanas">Humanas</option>
+                    </select>
+                    <button id="botao_formulario" type="submit" onclick="validar()">Enviar</button>
+                </form>
+            </div>
+        </div>
+        </div>
+        <section class="institucional container">
+            <div class="institucional__conteudo">
+                <div class="institucional___informacoes">
+                    <h2 class="institucional__titulo">Institucional</h2>
+                    <p class="institucional__descricao">Um pouco mais sobre a Apeperia</p>
+                    <address class="institucional__endereco">
+                        Rua Raimundo Ferreira Portella, 168<br>
+                        Itaqui, Campo Largo
+                        <article class="institucional__contato">
+                            <p>
+                                <a href="tel:+5541996737752" class="institucional__contato-telefone">(41) 99673-7752</a>
+                                ou
+                                <a href="mailto:miguel.carachenski.neto@escola.pr.gov.br"
+                                    class="institucional__contato-email">miguel.carachenski.neto@escola.pr.gov.br</a>
+                            </p>
+                        </article>
+                    </address>
+                </div>
+                <video src="img/formacao-java.mp4" class="institucional__video" controls></video>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape container">
+        <img src="img/logo-steam.png" alt="Logo da Apeperia" class="rodape__logo">
+        <ul class="rodape__social">
+            <li><a href="" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do facebook"></img></a></li>
+            <li><a href="" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do twitter"></img></a></li>
+            <li><a href="" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do instagram"></img></a></li>
+        </ul>
+        <ul class="rodape__navegacao">
+            <li class="rodape__link"><a href="#">Planos</a></li>
+            <li class="rodape__link"><a href="#">Sobre</a></li>
+            <li class="rodape__link"><a href="#">Blog</a></li>
+            <li class="rodape__link"><a href="#">Destaques</a></li>
+            <li class="rodape__link"><a href="#">Institucional</a></li>
+            <li class="rodape__link"><a href="#">Contato</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
